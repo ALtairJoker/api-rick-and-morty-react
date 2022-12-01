@@ -44,7 +44,7 @@ function Location() {
       setNext(data.info.next);
       setPrev(data.info.prev);
     } catch (error) {
-      alert(error.message);
+      alert('Esta es la ultima pagina');
     }
   };
 
@@ -59,7 +59,7 @@ function Location() {
       setPrev(data.info.prev);
       return;
     } catch (error) {
-      alert(error.message);
+      alert('Esta es la primera pagina');
     }
   };
 

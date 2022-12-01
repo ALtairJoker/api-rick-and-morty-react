@@ -67,7 +67,7 @@ function MiApi() {
       setNext(data.info.next);
       setPrev(data.info.prev);
     } catch (error) {
-      alert(error.message);
+      alert('Esta es la ultima pagina');
     }
   };
 
@@ -81,7 +81,7 @@ function MiApi() {
       setNext(data.info.next);
       setPrev(data.info.prev);
     } catch (error) {
-      alert(error.message);
+      alert('Esta es la primera pagina');
     }
   };
 

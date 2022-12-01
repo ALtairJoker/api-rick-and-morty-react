@@ -13,7 +13,7 @@ function Buscador({ inputFiltro, filtrar, selectFiltro }) {
           onChange={inputFiltro}
         />
         <select name="select" onChange={selectFiltro}>
-          <option value="" disabled="disabled">
+          <option value="" selected disabled="disabled">
             Selecciona el estado
           </option>
           <option value="Alive">Alive</option>

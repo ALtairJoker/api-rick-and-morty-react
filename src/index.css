@@ -67,6 +67,8 @@ code {
   justify-content: center;
   align-items: center;
   font-family: "Nyam Complete", sans-serif;
+  width: 100%;
+  height: auto;
 }
 
 .texto {
